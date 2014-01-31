@@ -5,7 +5,7 @@
 
 body {
 	background: #000 url('../images/background.jpg');
-	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	color: #333;
 }
 
@@ -14,10 +14,53 @@ body {
 	margin: 0 auto;
 	background-color: rgba(255,255,255,0.8);
 	padding: 25px;
+
 }
 
+header {
+	width: 100%;
+	float: left;
+	padding-bottom: 25px;
+}
 
+header h1 {
+	float: left;
+}
 
+header nav {
+	float: right;
+}
+
+header nav ul li {
+	display: inline;
+	margin: 0px 10px;
+}
+
+section {
+	width: 65%;
+	float: left;
+
+}
+
+aside {
+	width: 35%;
+	float: right;
+}
+
+.left {
+	float: left;
+	margin-right: 10px;
+}
+
+.right {
+	float: right;
+	margin-right: 10px;
+}
+
+footer {
+	width: 100%;
+	clear: both;
+}
 
 
 
